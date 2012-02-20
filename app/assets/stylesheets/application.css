@@ -1,16 +1,13 @@
-/**
- * This is a stylesheet for a demo presentation for impress.js
- * 
- * It is not meant to be a part of impress.js and is not required by impress.js.
- * I expect that anyone creating a presentation for impress.js would create their own
- * set of styles.
- */
 
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/*-- Colors
+
+Blue: #00A0B0
+Dark gray: #3d3d3d;
+Light gray: #7A7A7A;
+
+--*/
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -40,26 +37,83 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-    font-family: 'Amethysta', serif;
+    font-family: Georgia, serif;
     
     min-height: 740px;
 
-    background-image:url('texturetastic_gray.png');
+    background-image:url('subtle_freckles.png');
 
     -webkit-font-smoothing: antialiased;
 }
 
+a {
+color: inherit;
+text-decoration: none;
+padding: 0 0.1em;
+background: rgba(235, 162, 140, 0.5);
+border-radius: 0.2em;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-ms-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;
+}
+
 h1 {
-	font-size: 60px;
-	font-weight: bold;
-	margin-bottom: 10px;
+	font-weight: normal;
+	font-size: 83px;
+	color: #292929;
+	margin-bottom: 30px;
+	text-shadow: 2px 2px 2px #cccccc;
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 34px;
 	margin-bottom: 5px;
-	color: #3d3d3d;
+	color: #666666;
 }
+
+h3 {
+	font-size: 40px;
+	color: #292929;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-size: 30px;
+	color: #666666;
+	font-weight: normal;
+}
+
+p {
+	font-size: 24px;
+	color: #666666;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+i {
+	font-style: italic;
+	font-size: 18px;
+	text-shadow: 0px 1px 0px #ffffff;
+	color: #666666;
+}
+
+
+ul {
+	font-size: 24px;
+	color: #666666;
+}
+
+img {
+	xborder: 3px solid #a1a1a1;
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow: 10px 10px 5px #888;
+	box-shadow: 5px 5px 5px #888;
+	margin-bottom: 10px;
+}
+
+
 
 /* hint on the first slide */
 
@@ -94,35 +148,137 @@ h2 {
 }
 
 div#title {
-	width: 900px;
-	border: 1px solid red;
+	width: 600px;
+	xborder: 1px solid red;
+	font-size: 90px;
+	font-weight: bold;
+	color: #00A0B0;
+	text-shadow: 2px 2px 2px #cccccc;
+}
+
+div#title span {
+	font-weight: normal;
+	font-size: 83px;
+	color: #292929;
+	margin-bottom: 30px;
+}
+
+div#title h3 {
+	margin-top: 12px;
+	text-decoration: none;
 }
 
 div#intro {
-	width: 900px;
-	border: 1px solid red;
+	width: 700px;
+	xborder: 1px solid red;
 }
 
 div#let-me-show-you {
 	width: 900px;
-	border: 1px solid red;
+	xborder: 1px solid red;
 }
 
 div#effective-product-manager {
-	width: 900px;
-	border: 1px solid red;
+	width: 700px;
+	xborder: 1px solid red;
+}
+
+div#effective-product-manager ul {
+	margin: 35px 0 0 60px;
+}
+
+div#effective-product-manager ul li{
+	margin-bottom: 20px;
 }
 
 div#my-experience {
-	width: 900px;
-	border: 1px solid red;
+	width: 800px;
+	xborder: 1px solid red;
+}
+
+div#my-experience h1 {
+    font-size: 50px;
 }
 
 div#vitrue-tabs {
 	width: 900px;
-	border: 1px solid red;
+	xborder: 1px solid red;
+}
+
+div#vitrue-tabs img {
+	float: left;
+	margin-right: 30px;
+}
+
+div#vitrue-tabs p {
+
+}
+
+div#vitrue-tabs-cont-1 {
+	width: 720px;
+	xborder: 1px solid red;
 }
 
 
+div#vitrue-tabs-cont-2 {
+	width: 720px;
+	xborder: 1px solid red;
+}
 
+div#vitrue-analytics {
+	width: 900px;
+	xborder: 1px solid red;
+}
+
+div#vitrue-analytics img {
+	float: left;
+	margin-right: 30px;
+}
+
+div#user-interface {
+	width: 900px;
+	xborder: 1px solid red;
+}
+
+div#user-interface img {
+	float: left;
+	margin-right: 30px;
+}
+
+div#user-interface p {
+	font-size: 20px;
+}
+
+div#believe {
+	width: 920px;
+	border: 1px solid red;
+}
+
+div#iranian-green-movement {
+	width: 670px;
+	border: 1px solid red;
+}
+
+div#iranian-green-movement p {
+	font-size: 18px;
+}
+
+div#iranian-green-movement img {
+	margin-bottom: 20px;
+}
+
+div#twitter-bootstrap {
+	width: 900px;
+	border: 1px solid red;
+}
+
+div#thanks {
+	width: 900px;
+	border: 1px solid red;
+}
+
+div#credits {
+	width: 900px;
+	border: 1px solid red;
+}
 
