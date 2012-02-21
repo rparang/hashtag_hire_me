@@ -138,20 +138,31 @@ div#title {
 	xborder: 1px solid red;
 	font-size: 90px;
 	font-weight: bold;
-	color: #00A0B0;
+	color: #79BD9A;
 	text-shadow: 2px 2px 2px #cccccc;
+	margin-top: -89px;
 }
 
 div#title span {
-	font-weight: normal;
-	font-size: 83px;
-	color: #292929;
-	margin-bottom: 30px;
+	font-weight: bold;
+	font-size: 200px;
+	color: #CFF09E;
+	margin-bottom: 34px;
+}
+
+div#title h2 {
+	text-shadow: 0px 1px 0px #ffffff;
+	margin-left: 22px;
 }
 
 div#title h4 {
-	margin: 12px 0 0 100px;
-	text-decoration: none;
+	margin: 18px 0 0 22px;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+div#title i {
+	margin: 0 0 0 22px;
+	color: #8a8a8a;
 }
 
 div#intro {
@@ -178,7 +189,7 @@ div#effective-product-manager ul li{
 }
 
 div#my-experience {
-	width: 800px;
+	width: 640px;
 	xborder: 1px solid red;
 }
 
@@ -241,7 +252,7 @@ div#believe {
 }
 
 div#iranian-green-movement {
-	width: 670px;
+	width: 650px;
 	xborder: 1px solid red;
 }
 
